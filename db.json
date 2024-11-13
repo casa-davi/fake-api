@@ -31,14 +31,6 @@
         "email": "david@example.com",
         "status": "ACTIVE",
         "id": "4"
-      },
-      {
-        "name": "Frank",
-        "username": "frank",
-        "password": "123456",
-        "email": "frank@example.com",
-        "status": "INACTIVE",
-        "id": "5"
       }
     ],
     "pacientes": [
