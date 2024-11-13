@@ -38,47 +38,7 @@
         "password": "123456",
         "email": "frank@example.com",
         "status": "INACTIVE",
-        "id": "6"
-      },
-      {
-        "name": "Karen",
-        "username": "silva",
-        "password": "123456",
-        "email": "karen@example.com",
-        "status": "ACTIVE",
-        "id": "11"
-      },
-      {
-        "name": "Leo",
-        "username": "leo",
-        "password": "123456",
-        "email": "leo@example.com",
-        "status": "INACTIVE",
-        "id": "12"
-      },
-      {
-        "id": "1441",
-        "name": "Marcos Paulo",
-        "username": "marcos_paulo",
-        "password": "111222333",
-        "email": "marcospaulomacedo@gmail.com",
-        "status": "ACTIVE"
-      },
-      {
-        "id": "bad0",
-        "name": "Teórica",
-        "username": "usuario_teste",
-        "password": "2223344",
-        "email": "marcospaulomacedo@gmail.com",
-        "status": "ACTIVE"
-      },
-      {
-        "id": "e6d5",
-        "name": "jose da silva",
-        "username": "egrgr",
-        "password": "444444444444444444444",
-        "email": "marcospaulomacedo@gmail.com",
-        "status": "ACTIVE"
+        "id": "5"
       }
     ],
     "pacientes": [
@@ -121,46 +81,6 @@
         "dateOfBirth": "2000-01-10",
         "status": "ACTIVE",
         "id": "5"
-      },
-      {
-        "name": "Ana",
-        "surname": "Costa",
-        "cpf": "12805024610",
-        "dateOfBirth": "1992-09-17",
-        "status": "ACTIVE",
-        "id": "6"
-      },
-      {
-        "name": "Carlos",
-        "surname": "Pereira",
-        "cpf": "12805024611",
-        "dateOfBirth": "1985-11-30",
-        "status": "ACTIVE",
-        "id": "7"
-      },
-      {
-        "name": "Jose",
-        "surname": "da Silva",
-        "cpf": "12805024604",
-        "dateOfBirth": "2024-11-09",
-        "status": "ACTIVE",
-        "id": "0b3c"
-      },
-      {
-        "id": "1a4c",
-        "name": "Marcos",
-        "surname": "Paulo",
-        "cpf": "12340534533",
-        "dateOfBirth": "2024-11-21",
-        "status": "ACTIVE"
-      },
-      {
-        "id": "15a9",
-        "name": "Colaborador 1",
-        "surname": "11122",
-        "cpf": "11111111111",
-        "dateOfBirth": "2024-11-21",
-        "status": "ACTIVE"
       }
     ],
     "enderecos": [
@@ -173,42 +93,70 @@
         "pacienteId": "1"
       },
       {
-        "id": "103a",
+        "id": "2",
         "estado": "MG",
         "cidade": "Araguari",
         "bairro": "33",
         "rua": "Travessa Belchior Godoy",
         "numero": 1,
-        "pacienteId": null
+        "pacienteId": "2"
       },
       {
-        "id": "a35e",
+        "id": "3",
         "estado": "MG",
         "cidade": "Araguari",
         "bairro": "232",
         "rua": "Travessa Belchior Godoy",
         "numero": 1,
-        "pacienteId": null
+        "pacienteId": "3"
+      },
+      {
+        "id": "4",
+        "estado": "MG",
+        "cidade": "Araguari",
+        "bairro": "centro",
+        "numero": 235,
+        "pacienteId": "4"
+      },
+      {
+        "id": "5",
+        "estado": "MG",
+        "cidade": "Araguari",
+        "bairro": "centro",
+        "numero": 235,
+        "pacienteId": "5"
       }
     ],
     "parentesco": [
       {
-        "id": "7a9e",
+        "id": "1",
         "nome": "Luciene",
         "grauParentesco": "mãe",
-        "pacienteId": "2"
+        "pacienteId": "1"
       },
       {
-        "id": "327c",
+        "id": "2",
         "nome": "Marcos",
         "grauParentesco": "filho",
         "pacienteId": "2"
       },
       {
-        "id": "d5b9",
+        "id": "3",
         "nome": "Luciene",
         "grauParentesco": "mãe",
-        "pacienteId": "2"
+        "pacienteId": "3"
+      },
+      {
+        "id": "4",
+        "nome": "Luciene",
+        "grauParentesco": "mãe",
+        "pacienteId": "4"
+      },
+      {
+        "id": "5",
+        "nome": "Luciene",
+        "grauParentesco": "mãe",
+        "pacienteId": "5"
       }
     ],
     "vacinas": [
@@ -226,7 +174,7 @@
         "dataAplicacao": "2021-06-29",
         "tratamento": "tratamento de covid",
         "observacao": "observação",
-        "pacienteId": "1"
+        "pacienteId": "2"
       },
       {
         "id": "3",
@@ -234,7 +182,7 @@
         "dataAplicacao": "2021-06-29",
         "tratamento": "tratamento de covid",
         "observacao": "observação",
-        "pacienteId": "1"
+        "pacienteId": "3"
       },
       {
         "id": "4",
@@ -242,7 +190,7 @@
         "dataAplicacao": "2021-06-29",
         "tratamento": "tratamento de covid",
         "observacao": "observação",
-        "pacienteId": "1"
+        "pacienteId": "4"
       },
       {
         "id": "5",
@@ -250,63 +198,7 @@
         "dataAplicacao": "2021-06-29",
         "tratamento": "tratamento de covid",
         "observacao": "observação",
-        "pacienteId": "1"
-      },
-      {
-        "id": "6",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "6"
-      },
-      {
-        "id": "7",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "7"
-      },
-      {
-        "id": "8",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "0b3c"
-      },
-      {
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "Vacina contra hepatite B",
-        "observacao": "Vacina tomada contra Hepatite B onde o paciente constava ter sintomas da doença",
-        "pacienteId": "2",
-        "id": "9"
-      },
-      {
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "2",
-        "id": "10"
-      },
-      {
-        "name": "h1n1",
-        "dataAplicacao": "2024-11-12",
-        "tratamento": "tratamento para gripe",
-        "observacao": "Obs de tratamento para gripe",
-        "pacienteId": "2",
-        "id": "920f"
-      },
-      {
-        "id": "0537",
-        "name": "covid",
-        "dataAplicacao": "2022-10-10",
-        "tratamento": "Tratamento para covid",
-        "observacao": "tratamento para covid",
-        "pacienteId": "2"
+        "pacienteId": "5"
       }
     ],
     "exames": [
