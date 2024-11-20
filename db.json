@@ -7,72 +7,16 @@
         "email": "alice@example.com",
         "status": "ACTIVE",
         "id": "1"
-      },
-      {
-        "name": "Marcos",
-        "username": "Paulo",
-        "password": "123456r",
-        "email": "bob@example.com",
-        "status": "ACTIVE",
-        "id": "2"
-      },
-      {
-        "name": "Charlie",
-        "username": "charlie",
-        "password": "123456",
-        "email": "charlie@example.com",
-        "status": "INACTIVE",
-        "id": "3"
-      },
-      {
-        "name": "David",
-        "username": "david",
-        "password": "123456",
-        "email": "david@example.com",
-        "status": "ACTIVE",
-        "id": "4"
       }
     ],
     "pacientes": [
       {
         "name": "Marcos Paulo",
         "surname": "Avelino Macedo",
-        "cpf": "12805024605",
+        "cpf": "99999999999",
         "dateOfBirth": "1996-06-29",
         "status": "ACTIVE",
         "id": "1"
-      },
-      {
-        "name": "Alice",
-        "surname": "Silva",
-        "cpf": "12805024606",
-        "dateOfBirth": "1995-07-15",
-        "status": "INACTIVE",
-        "id": "2"
-      },
-      {
-        "name": "João",
-        "surname": "Santos",
-        "cpf": "12805024607",
-        "dateOfBirth": "1988-03-22",
-        "status": "ACTIVE",
-        "id": "3"
-      },
-      {
-        "name": "Maria",
-        "surname": "Oliveira",
-        "cpf": "12805024608",
-        "dateOfBirth": "1975-12-05",
-        "status": "ACTIVE",
-        "id": "4"
-      },
-      {
-        "name": "Pedro",
-        "surname": "Almeida",
-        "cpf": "12805024609",
-        "dateOfBirth": "2000-01-10",
-        "status": "ACTIVE",
-        "id": "5"
       }
     ],
     "enderecos": [
@@ -83,40 +27,6 @@
         "bairro": "centro",
         "numero": 235,
         "pacienteId": "1"
-      },
-      {
-        "id": "2",
-        "estado": "MG",
-        "cidade": "Araguari",
-        "bairro": "33",
-        "rua": "Travessa Belchior Godoy",
-        "numero": 1,
-        "pacienteId": "2"
-      },
-      {
-        "id": "3",
-        "estado": "MG",
-        "cidade": "Araguari",
-        "bairro": "232",
-        "rua": "Travessa Belchior Godoy",
-        "numero": 1,
-        "pacienteId": "3"
-      },
-      {
-        "id": "4",
-        "estado": "MG",
-        "cidade": "Araguari",
-        "bairro": "centro",
-        "numero": 235,
-        "pacienteId": "4"
-      },
-      {
-        "id": "5",
-        "estado": "MG",
-        "cidade": "Araguari",
-        "bairro": "centro",
-        "numero": 235,
-        "pacienteId": "5"
       }
     ],
     "parentesco": [
@@ -125,30 +35,6 @@
         "nome": "Luciene",
         "grauParentesco": "mãe",
         "pacienteId": "1"
-      },
-      {
-        "id": "2",
-        "nome": "Marcos",
-        "grauParentesco": "filho",
-        "pacienteId": "2"
-      },
-      {
-        "id": "3",
-        "nome": "Luciene",
-        "grauParentesco": "mãe",
-        "pacienteId": "3"
-      },
-      {
-        "id": "4",
-        "nome": "Luciene",
-        "grauParentesco": "mãe",
-        "pacienteId": "4"
-      },
-      {
-        "id": "5",
-        "nome": "Luciene",
-        "grauParentesco": "mãe",
-        "pacienteId": "5"
       }
     ],
     "vacinas": [
@@ -159,38 +45,6 @@
         "tratamento": "tratamento de covid",
         "observacao": "observação",
         "pacienteId": "1"
-      },
-      {
-        "id": "2",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "2"
-      },
-      {
-        "id": "3",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "3"
-      },
-      {
-        "id": "4",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "4"
-      },
-      {
-        "id": "5",
-        "name": "Hepatite B",
-        "dataAplicacao": "2021-06-29",
-        "tratamento": "tratamento de covid",
-        "observacao": "observação",
-        "pacienteId": "5"
       }
     ],
     "exames": [
@@ -202,61 +56,6 @@
         "relatorio": "relatório",
         "pacienteId": "1",
         "id": "1"
-      },
-      {
-        "id": "2",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "pacienteId": "1"
-      },
-      {
-        "id": "3",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "pacienteId": "1"
-      },
-      {
-        "id": "4",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "pacienteId": "1"
-      },
-      {
-        "id": "5",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "pacienteId": "1"
-      },
-      {
-        "id": "6",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "pacienteId": "6"
-      },
-      {
-        "id": "7",
-        "nome": "Hemograma",
-        "tratamento": "Covid-19",
-        "dataExame": "2021-06-29",
-        "medicacao": "medicação",
-        "relatorio": "relatório",
-        "resultado": "resultado do exame",
-        "pacienteId": "7"
       }
     ],
     "login": {
